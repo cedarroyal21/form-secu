@@ -6,21 +6,30 @@
     font-family: poppins,sans-serif;
 }
 section{
-    background-color: green;
-    padding: 30px;
-    margin: 10px;
-    border-radius: 15%;
-    position: relative;
-    border: 6px;
-    border-color: rgb(219, 12, 12);
+    background-color: aqua;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 12%;
 }
+.contenu{
+    background-color: rgb(23, 226, 23);
+    padding: 30px;
+    margin: 4px;
+    border-radius: 10%;
+    position: relative;
+    border: 17vh;
+    border-color: rgb(219, 12, 12);
+    background-color: green;
+}
+
 body{
-    background-color: rgb(221, 221, 236);
+    background-color: rgb(38, 38, 211);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 200px;
     height: 100vh;
+    background-image: url(boule.jpg);
     
 
 }
@@ -28,16 +37,21 @@ hr{
     padding: 1px;
     margin: 2px;
     background-color: blue;
+
 }
 h1{
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
 }
 .info{
     padding: 6px;
-    gap: 10px;
-    margin: 8px;
+    gap: 40px;
     position: relative;
     border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .inf1{
     margin: 6px;
@@ -46,10 +60,13 @@ h1{
 .inf2{
     margin: 6px;
 }
+.inf3{
+    margin: 6px;
+}
 button{
     padding: 1px 200px;
     margin: 13px;
-    border-radius: 10px;
+    border-radius: 25px;
     border-color: black;
     background-color: brown;
     cursor: pointer;
@@ -65,4 +82,25 @@ button:hover{
 p{
     padding: 6px;
     margin: 8px;
+    color: antiquewhite;
+}
+label{
+    position: relative;
+}
+.info input{
+    width: 100%;
+    padding: 11px;
+    border-radius: 25px;
+    border-color: black;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: aliceblue;
+    padding-right: 40PX;
+}
+.info input::placeholder{
+    color: aliceblue;
+}
+img{
+    color: aliceblue;
 }
