@@ -6,20 +6,22 @@
     font-family: poppins,sans-serif;
 }
 section{
-    background-color: aqua;
+    background-color: transparent;
     padding: 50px;
     margin: 30px;
-    border-radius: 12%;
+    border-radius: 45%;
+    border-color: rgb(189, 7, 7);
 }
 .contenu{
     background-color: rgb(23, 226, 23);
-    padding: 30px;
+    padding: 20px;
     margin: 4px;
-    border-radius: 10%;
+    border-radius: 9%;
     position: relative;
-    border: 17vh;
     border-color: rgb(219, 12, 12);
-    background-color: green;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(16px);
 }
 
 body{
@@ -29,24 +31,25 @@ body{
     align-items: center;
     padding: 200px;
     height: 100vh;
-    background-image: url(boule.jpg);
-    
+    background-image: url(hack4.jpeg);
+    background-position: center;
+    background-size: cover;
 
 }
 hr{
     padding: 1px;
     margin: 2px;
-    background-color: blue;
+    background-color: rgb(14, 64, 202);
 
 }
 h1{
     padding: 10px;
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(211, 22, 9);
 }
 .info{
-    padding: 6px;
+    padding: 3px;
     gap: 40px;
     position: relative;
     border-radius: 20px;
@@ -68,12 +71,13 @@ button{
     margin: 13px;
     border-radius: 25px;
     border-color: black;
-    background-color: brown;
+    background-color: rgb(5, 21, 94);
     cursor: pointer;
+    margin-top: 10px;
     
 }
 button:hover{
-    color: aquamarine;
+    color: rgb(211, 43, 13);
 }
 .remember{
     padding: 6px;
@@ -83,6 +87,8 @@ p{
     padding: 6px;
     margin: 8px;
     color: antiquewhite;
+    display: flex;
+    justify-content: center;
 }
 label{
     position: relative;
@@ -99,8 +105,21 @@ label{
     padding-right: 40PX;
 }
 .info input::placeholder{
-    color: aliceblue;
+    color: rgb(214, 227, 238);
 }
 img{
     color: rgb(99, 165, 223);
 }
+.remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+.inf1 input i image{
+    position: absolute;
+}
+a{
+    color: rgb(20, 219, 13);
+}
+
