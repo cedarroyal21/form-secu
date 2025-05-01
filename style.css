@@ -11,6 +11,7 @@ section{
     margin: 30px;
     border-radius: 45%;
     border-color: rgb(189, 7, 7);
+    box-shadow: red;
 }
 .contenu{
     background-color: rgb(23, 226, 23);
@@ -22,6 +23,7 @@ section{
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(16px);
+    box-shadow: 10px solid red;
 }
 
 body{
@@ -39,7 +41,8 @@ body{
 hr{
     padding: 1px;
     margin: 2px;
-    background-color: rgb(14, 64, 202);
+    background-color: rgb(3, 52, 143);
+    border-radius: 18px;
 
 }
 h1{

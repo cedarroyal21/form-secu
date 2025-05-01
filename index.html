@@ -8,8 +8,9 @@
     <script src="https://kit.fontawersome.com/61523b4b4d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <form id="formuaire">
     <section id="image">
-    <div class="contenu" >
+    <div class="contenu">
         <h1>HACKDEFEND INSCRIPTION</h1>
         <hr>
         <!--informations de l'utilisateur-->
@@ -19,11 +20,11 @@
                <i><img src="user.svg" alt=""></i>
             </div>
             <div class="inf2">
-               <input type="password" placeholder="entrez un mot de passe"><br>
+               <input type="password" name="password" placeholder="entrez un mot de passe"><br>
                <i><img src="lock.svg" alt=""></i>
             </div>
             <div class="inf3">
-                <input type="email" placeholder="entrez votre e-mail">
+                <input type="email" name="email" placeholder="entrez votre e-mail">
                 <i><img src="send.svg" alt=""></i>
 
             </div>
@@ -35,10 +36,13 @@
         </div>
         <!--connection-->
         <div class="connex">
-            <p>vous deja un compte ?cliquez ici</p><button>s'inscrire </button>
+            <p>vous deja un compte ?cliquez ici</p><button type="submit">s'inscrire </button>
         </div>
         
     </div>
     </section>
+</form>
+    </body>
+    <script src="script.js"></script>
 </body>
 </html>
