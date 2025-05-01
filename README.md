@@ -34,3 +34,6 @@ formulaire-securise/ ├── index.html # Page du formulaire ├── style.c
    ```bash
    git clone https://github.com/cedarroyal21/formulaire-securise.git
 2.Ouvrir index.html dans le navigateur  
+
+#apercu 
+<img src="form" alt="img">
